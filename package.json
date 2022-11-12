@@ -1,12 +1,11 @@
 {
     "name": "vanilla_web",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "private": false,
     "scripts": {
         "devstart": "nodemon ./bin/www",
         "preinstall_local": "sh install_3rd_party",
         "prettier": "npx prettier --write .",
-        "prod_push": "git push heroku master && git push origin master",
         "start": "node ./bin/www",
         "test": "nyc mocha"
     },
